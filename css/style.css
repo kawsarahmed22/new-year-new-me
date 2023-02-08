@@ -1,0 +1,16 @@
+.header{
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    
+}
+
+.header img {
+    width: 100%;
+}
+
+
+.failer-year {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

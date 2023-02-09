@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+
+
 .primary-button {
     padding: 15px 30px;
     color: #005FAC;
@@ -7,7 +17,10 @@
     font-size: 20px;
 }
 
-
+.tik-simbol {
+    width: 4%;
+    margin-right: 5px;
+}
 .header {
     display: flex;
     align-items: center;
@@ -40,6 +53,42 @@
     display: flex;
     justify-content: space-around;
 }
+
+.failer-year-right {
+    width: 30%;
+    padding: 200px;
+}
+
+.failer-year-right p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 20px;
+}
+
+
+.failer-section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 20px;
+}
+
+.failer-year-right ul li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
 
 .footer {
     display: flex;

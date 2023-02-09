@@ -38,6 +38,9 @@
     padding: 130px;
     width: 30%;
 }
+.header-description p{
+    margin-bottom: 10px;
+}
 
 .header img {
     width: 100%;

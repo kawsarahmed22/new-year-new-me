@@ -1,7 +1,28 @@
-.header{
+.primary-button {
+    padding: 15px 30px;
+    color: #005FAC;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
-    
+    color: white;
+
+}
+
+.header-description {
+    text-align: end;
+    padding: 130px;
+    width: 30%;
 }
 
 .header img {
@@ -20,7 +41,7 @@
     justify-content: space-around;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
 }
